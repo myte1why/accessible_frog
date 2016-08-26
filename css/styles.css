@@ -67,9 +67,13 @@ header {
   background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
   height: 350px;
-  font-weight: bold;
+  font-weight: 900;
+}
+header .cover{
+  background-color: rgba(255,255,255,0.50);
+  height: 100%;
+  padding-top: 120px;
 }
 
 .tag {
@@ -83,14 +87,13 @@ header {
 }
 
 header .name{
-  font-size: 5em;
-  color: #2d2b30;
+     font-size: 5em;
+    color: #2d2b30;
 }
 .tagline {
-  font-weight: 600;
-  padding: 20px;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #f70030
+  color: #781125
 }
 
 .card {
